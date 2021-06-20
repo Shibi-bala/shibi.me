@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.Narrow-Container {
+  margin: 0 auto;
+  max-width: 700px;
+  align-items: center;
+  padding-left:10px;
+  padding-right: 10px;
+  
+}
+
+.p {
+  font-size: 20px;
+}
+
+.profilePic {
+  max-width:40%;
+  margin-right:20px;
+  border-radius: 5px;
+}
+
+.link{
+  color:#ea5d0b;
+  text-decoration : none;
+}
+
+.link:hover{
+  color:#ec5f0d;
+  text-decoration : underline;
+}
+
+.h1-emphasis{
+  color:#ec5f0d;
+  text-align: center;
+  font-size: 36px;;
+}
