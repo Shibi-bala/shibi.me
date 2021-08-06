@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Sofia-Pro';
+  src: local('Sofia-Pro'), url("./Assets/Sofia Pro Regular Az.otf") format('truetype');
+}
