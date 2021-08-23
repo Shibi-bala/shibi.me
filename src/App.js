@@ -93,9 +93,11 @@ const Navbar = {
 
     // 40em == 640px
     @media only screen and (max-width: 40em) {
+      border: 1px;
       position: fixed;
       width: 100vw;
       bottom: 0;
+      box-shadow: 0px 1px 6px #888888;
     }
   `,
   Logo: styled.h1`
@@ -174,7 +176,7 @@ const HamburgerButton = {
   `,
   Lines: styled.div`
     top: 50%;
-    margin-top: -0.125em;
+    margin-top: -0.325em;
 
     &,
     &:after,

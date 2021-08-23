@@ -89,29 +89,29 @@ function Work() {
                   <img className="profilePic" src={myddle} alt="Myddle Screens"/>
                 </Col>
               </Row>
-              <p className="p">The tech stack that ended up being used was actually very new to me at the time. This project was the first time I had used React on something at this scale. Along with that, I used mongoDB Atlas which I was complelty learning from scratch (though the great documentation and features such as Atlas Search made it quite straightforward). </p>
+              <p className="p">The tech stack that ended up being used was actually very new to me at the time. This project was the first time I had used React on something at this scale. Along with that, I used mongoDB Atlas which I was completely learning from scratch (though the great documentation and features such as Atlas Search made it quite straightforward). </p>
               <img  src={myddleStack} alt="Myddle Tech Stack" style={{alignSelf:'center', maxWidth:"100%"}}/>
               <p className="caption">Basic Overview of Tech Stack</p>
-              <p className="p">Currently this project has all of its features built out, but is on hold until I find more time to clean it up. It was actually on Testflight for a few months, and hopefully I can find some time this Winter break to finish it :)</p>
+              <p className="p">Currently, this project has all of its features built out but is on hold until I find more time to clean it up. It was actually on Testflight for a few months, and hopefully, I can find some time this Winter break to finish it :)</p>
             </div>
           </Modal.Body>
           <Modal.Footer>
-          <a className="nav-link-icon" href="https://github.com/Shibi-bala/Meetup" target="_blank" rel="noopener noreferrer"><GitHub/></a>
+            {/*<a className="nav-link-icon" href="https://github.com/Shibi-bala/Meetup" target="_blank" rel="noopener noreferrer"><GitHub/></a>*/}
             <Button variant="secondary" onClick={()=>handleHide(0)}>
               
               Close
             </Button>
           </Modal.Footer>
         </Modal> 
-        <Modal show={show[1]} size='lg' className="modal-container custom-map-modal" onHide={()=>handleHide(1)} centered>
+        <Modal show={show[1]} size='lg' className="modal-container custom-map-modal" onHide={()=>handleHide(1)} centered scrollable> 
           <Modal.Header closeButton>
             <Modal.Title>Stereo Sound View</Modal.Title>
           </Modal.Header>
           <Modal.Body style={{alignItems: 'center'}}>
             <div className="Modal-Container">
-              <p className="p">This project has a pretty funny origin story. I had broken my only pair of headphones in a way that I couldn't hear out of the left side. After my jerry-rigged fix with a rubberband and eraser stopped working, I had a lot of trouble playing some of my favorite first-person video games. The scope of the problem goes beyond broken headphones; people with impaired hearing are put at a disadvantage, especially in games where directional sound cues are critical.</p>
-              <p className="p">This program is meant to visualize the directional left and right sounds heard in many video games. It used C# and interacted with audio interfaces to determine which direction a sound was coming from. The program then displayed that information visually on a overlay.</p>
-              <p className="p">There are many improvements that could be made such as looking at different pitches in the audio to deferentiate between footsteps and other sounds, but </p>
+              <p className="p">This project has a pretty funny origin story. I had broken my only pair of headphones in a way that I couldn't hear out of the left side. After my jerry-rigged fix with a rubber band and eraser stopped working, I had a lot of trouble playing some of my favourite first-person video games. The scope of the problem goes beyond broken headphones; people with impaired hearing are put at a disadvantage, especially in games where directional sound cues are critical.</p>
+              <p className="p">This program is meant to visualize the directional left and right sounds heard in many video games. It used C# and interacted with audio interfaces to determine which direction a sound was coming from. The program then displayed that information visually on an overlay.</p>
+              <p className="p">Many improvements that could be made such as looking at different pitches in the audio to differentiate between footsteps and other sounds, but </p>
                 <img  src={SoundView} alt="Stereo Sound View Example" style={{alignSelf:'center', maxWidth:"100%"}}/>
                 <p className="caption">Screenshot of program running in Valorant</p>
               </div>

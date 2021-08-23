@@ -54,6 +54,8 @@
   font-weight:bold;
   font-family: 'Sofia-Pro';
   color: #333333;
+  text-align: center;
+  
 }
 
 .scalingTitleText {
@@ -73,7 +75,7 @@
 
 .profilePic {
   max-width:100%;
-  margin-right:20px;
+  margin-bottom:20px;
   border-radius: 5px;
 }
 
