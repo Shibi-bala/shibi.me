@@ -1,7 +1,11 @@
 .App {
     text-align: center;
   }
-  
+
+.App-Footer-Container {
+  text-align: center;
+  background-color: "black";
+}  
 .App-header {
   min-height: 10vh;
   display: flex;
@@ -20,14 +24,57 @@
 .nav-link{
   border-radius: 4px;
   padding:5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding-left : 10px;
   padding-right: 10px;
   color:black;
-  margin:10px;
+  margin:10px 3px;
+  text-align: center;
+  font-family: 'Sofia-Pro';
+  text-decoration : none;
+}
+
+.nav-link-title{
+  border-radius: 4px;
+  padding:5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left : 10px;
+  padding-right: 10px;
+  color:black;
+  margin:10px 3px;
+  text-align: center;
+  font-family: 'Sofia-Pro';
+  text-decoration : none;
+}
+
+.nav-link-icon{
+  border-radius: 4px;
+  padding:5px;
+  padding-left : 10px;
+  padding-right: 10px;
+  color:black;
+  margin:10px 3px;
+  text-align: center;
   text-decoration : none;
 }
 
 .nav-link:hover{
+  background-color: #cbd2d0;
+  
+}
+
+.nav-link-icon:hover{
+  background-color: #cbd2d0;
+  
+}
+
+.nav-link-title:hover{
   background-color: #cbd2d0;
   
 }

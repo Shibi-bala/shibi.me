@@ -8,20 +8,74 @@
 
 .Narrow-Container {
   margin: 0 auto;
-  max-width: 700px;
   align-items: center;
   padding-left:10px;
   padding-right: 10px;
-  
+  max-width: min(1000px, 95%);
+  padding-top:30px;
+  padding-bottom: 90px;
+}
+
+.Modal-Container {
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  padding-left:10px;
+  padding-right: 10px;
+  max-width: min(1000px, 95%);
+  padding-top:30px;
+  padding-bottom: 90px;
+}
+
+.Narrow-Container-Text-Centered {
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  padding-left:10px;
+  padding-right: 10px;
+  max-width: min(900px, 95%);
+  padding-top:60px;
+  padding-bottom: 90px;
 }
 
 .p {
   font-size: 20px;
+  font-family: 'Sofia-Pro';
+  text-align: left;
+}
+
+.caption {
+  font-size: 16px;
+  font-family: 'Sofia-Pro';
+}
+
+.scalingHeaderText {
+  font-size: max(16px,min(1.706vw,27px));
+  font-weight:bold;
+  font-family: 'Sofia-Pro';
+  color: #333333;
+  text-align: center;
+  
+}
+
+.scalingTitleText {
+  font-size: max(20px,min(2.306vw,40px));
+  line-height: max(24px,min(2.7vw,60px));
+  font-weight:600;
+  font-family: 'Sofia-Pro';
+  color: #333333;
+}
+
+.scalingTitleTextGrey {
+  font-size: max(20px,min(2.306vw,40px));
+  line-height: max(24px,min(2.7vw,60px));
+  font-family: 'Sofia-Pro';
+  color: #777777;
 }
 
 .profilePic {
-  max-width:40%;
-  margin-right:20px;
+  max-width:100%;
+  margin-bottom:20px;
   border-radius: 5px;
 }
 

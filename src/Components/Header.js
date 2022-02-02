@@ -5,9 +5,7 @@ function Header() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          <b>Shibi Balamurugan</b>
-        </p>
+        
       </header>
     </div>
   );
